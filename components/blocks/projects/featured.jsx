@@ -39,7 +39,7 @@ export default function FeaturedProject({ content }, index) {
 			<div className={css.details}>
 				<div className={css.projectHeader}>
 					<div className={css.header}>
-						<h3 className="highlight">{project}</h3><span className={css.privateOr}><i className="devicon-github-plain"></i>{repo}</span>	
+						<h3 className="highlight">{project}</h3><span className={css.privateOr}><i className="devicon-figma-plain"></i>{repo}</span>	
 					</div>
 					<div className={css.description}>
 						<p><strong>{descriptionTitle}</strong> {description}</p>

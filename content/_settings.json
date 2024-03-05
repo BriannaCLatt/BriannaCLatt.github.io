@@ -1,15 +1,12 @@
 {
-	"name": "Andrew Nelson",
+	"name": "Brianna Lattimore",
 	"logo": "",
 	
 	"username": {
-		"github": "atlamors",
-		"medium": "@--andrewnelson"
+		"github": "BriaLatt"
 	},
 
 	"portfolio": { 
-		"forkthis": "Steal this theme! Its open-source 🥰",
-		"repo_html": "https://www.github.com/atlamors/portfolio",
-		"repo_api": "https://api.github.com/repos/atlamors/portfolio"
+		"forkthis": "Thanks for taking a look at my portfolio! 🥰"
 	}
 }
