@@ -8,11 +8,11 @@
 		"title": "Case Studies"
 	},
 	{
-		"url": "/articles",
-		"title": "Articles"
-	},
-	{
 		"url": "/projects",
 		"title": "Projects"
+	},
+	{
+		"url": "/resume",
+		"title": "Resume"
 	}
 ]
