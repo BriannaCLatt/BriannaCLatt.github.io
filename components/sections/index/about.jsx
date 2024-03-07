@@ -33,7 +33,7 @@ export default function About() {
 					subTitle="With a diverse skill set that includes UX design, UI design, full stack development, operational architecture, systems design, photography, and branding, I am a well-rounded digital professional."
 				/>
 				<section className={about.content}>
-					<div className={about.image +}>
+					<div className={about.image}>
 						<img src="/img/Tezza-5292.jpg" alt="Brianna Lattimore"/>
 					</div>
 					<div className={about.copy} >
