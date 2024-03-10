@@ -30,20 +30,20 @@ export default function Technical() {
 				<SectionTitle
 					title="Technical"
 					preTitle="Hardskills"
-					subTitle="As a creative technologist, I craft intuitive digital experiences using a diverse set of tools and languages."
+					subTitle="As a creative, I use design and coding to build web and app experiences with various tools and languages."
 				/>
 				<section className={`${about.content} ${about.container}`}>
 					<div className={about.copy}>
 						<CopyBlock 
-							title="Polymath foundations"
-							icon={[ 'fat', 'chart-network' ]}
-							copy="With a strong foundation in both design and development, I bring a unique perspective to every project and am constantly learning and evolving to stay up-to-date with the latest industry trends."
+							title="Creative Evolution"
+							icon={[ 'fas', 'infinity' ]}
+							copy="With a robust background in design and development, I offer a unique perspective to each project. I am continuously learning and adapting to keep pace with current industry trends."
 							iconClass={about.icon}
 							containerClass={about.container}
 						/>
 						<BadgesBlock 
 							title="Software I love to work with" 
-							copy="With over 20 years of experience creating digital assets, I have a deep and intuitive understanding of how the interfaces of the best software products in the world are designed. This is just some of the software I have used over that time."
+							copy="During my undergraduate studies, I've explored a wide range of software, gaining an insightful understanding of the design principles behind some of the world's top software interfaces. Here are some of the tools I've encountered along the way."
 							list={software}
 							block="software" 
 							fullContainer="fullContainer"
@@ -53,7 +53,7 @@ export default function Technical() {
 						/>
 						<BadgesBlock 
 							title="Technologies I love to build with" 
-							copy="I deeply enjoy solving problems through code. From the front end all the way to the back end and the APIs in-between. No project is too challenging for me."
+							copy="Although coding may not be the focus of my future career, I have gained valuable experience with a range of coding technologies, from front-end to back-end, including APIs. This experience broadens my perspective and allows me to contribute to projects in meaningful ways."
 							list={tech} 
 							block="tech"
 							fullContainer="fullContainer" 
@@ -74,26 +74,22 @@ export default function Technical() {
 
 const software = [
 	{ key: 'photoshop', 	name: 'Photoshop', 			type: 'devicon' },
-	{ key: 'illustrator', 	name: 'Illustrator', 		type: 'devicon' },
 	{ key: 'figma', 		name: 'Figma', 				type: 'devicon' },
 	{ key: 'vscode', 		name: 'VSCode', 			type: 'devicon' },
-	{ key: 'mailbox', 		name: 'Postman', 			type: 'fas' },
-	{ key: 'computer-mouse',name: 'Click Up', 			type: 'fas' },
-	{ key: 'list-music',	name: 'Ableton', 			type: 'fas' },
-	{ key: 'aftereffects',	name: 'After Effects', 		type: 'devicon' },
-	{ key: 'premierepro',	name: 'Premiere Pro', 		type: 'devicon' },
+	{ key: 'postman', 		name: 'Postman', 			type: 'devicon' },
+	{ key: 'canva',	name: 'Canva', 			type: 'devicon' },
+	{ key: 'xd',	name: 'AdobeXD', 		type: 'devicon' },
+	{ key: 'hashtag',	name: 'Hootsuite', 		type: 'fas' },
+	{ key: 'github',	name: 'Github', 		type: 'devicon' },
 ]
 
 const tech	= [
 	{ key: 'javascript', 	name: 'JavaScript', 		type: 'devicon' },
 	{ key: 'nodejs', 		name: 'NodeJS', 			type: 'devicon' },
+	{ key: 'express-original colored', 		name: 'ExpressJS', 			type: 'devicon' },
 	{ key: 'react', 		name: 'React', 				type: 'devicon' },
-	{ key: 'nextjs', 		name: 'NextJS', 			type: 'devicon' },
-	{ key: 'jquery', 		name: 'jQuery', 			type: 'devicon' },
 	{ key: 'php', 			name: 'PHP', 				type: 'devicon' },
 	{ key: 'wordpress', 	name: 'WordPress', 			type: 'devicon' },
-	{ key: 'woocommerce', 	name: 'WooCommerce', 		type: 'devicon' },
-	{ key: "google",		name: "GA4/GTM", 			type: "devicon" },
 	{ key: 'html5', 		name: 'HTML5', 				type: 'devicon' },
 	{ key: 'css3', 			name: 'CSS3', 				type: 'devicon' },
 	{ key: 'sass', 			name: 'SASS', 				type: 'devicon' },

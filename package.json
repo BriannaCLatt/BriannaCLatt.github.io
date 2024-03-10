@@ -23,7 +23,7 @@
 		"@uiw/react-markdown-preview": "^4.1.7",
 		"@vercel/analytics": "^0.1.6",
 		"babel-plugin-macros": "^3.1.0",
-		"devicon": "^2.15.1",
+		"devicon": "^2.16.0",
 		"framer-motion": "^8.5.5",
 		"next": "^14.1.2",
 		"prop-types": "^15.8.1",
