@@ -34,24 +34,24 @@ export default function About() {
 				/>
 				<section className={about.content}>
 					<div className={about.image}>
-						<img src="/img/Tezza-5292.jpg" alt="Brianna Lattimore"/>
+						<img src="/img/BCL.jpg" alt="Brianna Lattimore"/>
 					</div>
 					<div className={about.copy} >
 						<CopyBlock 
-							title="Softskills that pay the bills"
+							title="Soft Skills, Strong Impact"
 							containerClass={about.container}
 							iconClass={about.icon}
-							icon={[ 'fat', 'ear-listen' ]}
-							copy="In addition to my design and technical expertise—I also have strong leadership, time management, and multitasking skills—honed through my experience as a business owner / managing partner, husband, and father of two. Outside of work, I enjoy staying active through sports such as hockey and snowboarding. I am confident in my ability to bring passion and value to any project."
+							icon={['far', 'users']}
+							copy= "While having a solid foundation in UI/UX Design, I'm also flexible, an exceptional multitasker, with strong leadership and communication skills, enhanced by my roles as a Youth Leader and Operations Assistant. I excel in being an instructor as well. In my leisure moments, I enjoy singing, dancing, baking, and exploring different languages. Most importantly, I love spending quality time with my family."
 						/>
 						<BadgesBlock 
-							title="Reasearch and planning" 
+							title="Other Endeavors" 
 							containerClass={about.container}
 							list={methods} 
 							fullContainer="fullContainer"
 							block="methods" 
-							icon="fingerprint"
-							copy="One of my favorite aspects of creating is planning the architecture of a project. From Design Systems to Brand Strategy—I enjoy working with the many touch points of user experience."
+							icon="sitemap"
+							copy="My interest does not just lie in the design aspect of UI/UX but also in the research and accessibility side. I enjoy working on many aspects of a project to ensure that every user can have a wholesome experience."
 							//invertedColor="invertedColor"
 							headerIcon={`${about.icon}`}
 						/>
@@ -64,9 +64,9 @@ export default function About() {
 
 const methods 	= [
 	{ key: 'planet-moon', 		name: 'User Research', 		type: 'fad' },
-	{ key: 'qrcode', 			name: 'Digital Strategy', 	type: 'fad' },
-	{ key: 'window', 			name: 'Design Systems', 	type: 'fad' },
-	{ key: 'cubes', 			name: 'Product Strategy', 	type: 'far' },
-	{ key: 'layer-plus', 		name: 'Brand Strategy', 	type: 'fad' },
-	{ key: 'solar-system', 		name: 'Operations', 		type: 'fad' },
+	{ key: 'chart-simple', 			name: 'Market Analysis', 	type: 'fad' },
+	{ key: 'universal-access', 			name: 'Accesibility', 	type: 'far' },
+	{ key: 'network-wired', 			name: 'Information Architecture', 	type: 'far' },
+	{ key: 'lightbulb', 		name: 'Content Strategy', 	type: 'fas' },
+	{ key: 'clipboard-user', 		name: 'Usability Testing', 		type: 'fas' },
 ]
