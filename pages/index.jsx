@@ -3,7 +3,6 @@ import Looking 		from '../components/sections/index/looking'
 import About 		from '../components/sections/index/about'
 import Technical 	from '../components/sections/index/technical'
 import Career 		from '../components/sections/index/career'
-import Resume 		from '../components/sections/index/resume'
 import FeaturedProjects	from '../components/sections/projects/featured'
 
 import Color 		from '../components/utils/page.colors.util'
@@ -22,7 +21,6 @@ export default function HomePage() {
 			<About />
 			<Technical />
 			{<Career />}
-			<Resume />
 		</>
 	);
 }

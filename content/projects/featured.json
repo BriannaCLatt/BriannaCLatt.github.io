@@ -2,7 +2,7 @@
 	{
 		"project": "The Suite Spot",
 		"url": "https://mysupplyco.com",
-		"repo": "Private",
+		"repo": "Github - Public",
 		"descriptionTitle": "A salon suite website with a mobile first design",
 		"description": "A salon suite website with a mobile first design. Project for Workshop 2 class.",
 		"imageOptions": [
@@ -18,17 +18,20 @@
 			{ "key": "nodejs", 		"name": "Node.js", 		"type": "devicon" },
 			{ "key": "mongodb", 	"name": "MongoDB", 		"type": "devicon" },
 			{ "key": "javascript", 	"name": "JavaScript", 	"type": "devicon" },
-			{ "key": "html5",		"name": "HTML5", 		"type": "devicon" },
+			{ "key": "html5", 	"name": "HTML5", 	"type": "devicon" },
+			{ "key": "express-original colored", 	"name": "Express.js", 	"type": "devicon" },
+			{ "key": "redux",		"name": "Redux", 		"type": "devicon" },
 			{ "key": "css3",		"name": "CSS3", 		"type": "devicon" },
-			{ "key": "git",			"name": "Git(Hub)", 	"type": "devicon" }
+			{ "key": "git",			"name": "Git", 	"type": "devicon" },
+			{ "key": "github",			"name": "Github", 	"type": "devicon" }
 		]
 	},
 	{
 		"project": "SONOFT",
 		"url": "https://github.com/atlamors/portfolio",
-		"repo": "Public",
-		"descriptionTitle": "An open source portfolio",
-		"description": "built on Next.js and React. A fast and agile MERN stack single page application.",
+		"repo": "Figma - Private",
+		"descriptionTitle": "A Todo App Interface",
+		"description": "Built in Figma, using Character Builder in Canva.",
 		"imageOptions": [
 			{ "key": "size", 		"value": "large" }
 		],
