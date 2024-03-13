@@ -114,16 +114,20 @@
 		position: absolute;
 		overflow: hidden;
 		border-radius: 2rem;
-		height: calc(100% - 6rem);
-		width: calc(100% + 9rem);
+		height: 100%;
+		width: 115%;
 		right: 0;
 		bottom: 0;
+	  
 
 		> div > div {
 
 			> span {
 				position: absolute !important;
 				right: 4rem;
+				left: 50%;
+				top: 50%;
+				transform: translateX(-50%, -50%); //
 	
 				img {
 					width: calc(556px / 1.25) !important;
@@ -132,7 +136,36 @@
 		}
 	}
 }
-
+/*.imageAnimationContainer {
+	position: relative; // Ensure this container is the reference for the absolute positioning of children
+	overflow: hidden;
+	border-radius: 2rem;
+	height: calc(100% - 6rem);
+	width: calc(100% + 9rem);
+	right: 0;
+	bottom: 0;
+  
+	> div > div {
+	  width: 100%; // Ensure the full width for the intermediate divs
+	  height: 100%; // Ensure the full height for better control
+	  position: relative; // Added for clearer structure and positioning context
+  
+	  > span {
+		position: absolute;
+		top: 50%; // Center vertically
+		left: 50%; // Start the span at the center horizontally
+		transform: translate(-50%, -50%); // Center both horizontally and vertically
+  
+		img {
+		  width: auto; // Adjust based on your needs, could be a specific px value
+		  max-width: 100%; // Ensure it doesn't overflow the container
+		  height: auto; // Maintain aspect ratio
+		  // Optionally, you can set a max-height here as well
+		}
+	  }
+	}
+  }*/
+  
 .privateOr {
 	display: flex;
 	flex-direction: row;

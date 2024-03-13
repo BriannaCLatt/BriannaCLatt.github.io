@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Link from 'next/link'
 
 import { useEffect } from 'react'
 import { m, useAnimation } from "framer-motion"
@@ -48,8 +49,11 @@ export default function FeaturedProject({ content }, index) {
 						<Badges list={stack} block="stack" fullContainer={false} color={false} />
 					</div>
 					<m.div variants={''} className={css.viewProject}>
-						<Icon icon={[ 'fad', 'arrow-right-to-bracket' ]} />
-					</m.div>
+    <Link href={url} aria-label={`View project ${project}`}>
+        <Icon icon={['fad', 'arrow-right-to-bracket']} />
+    </Link>
+</m.div>
+
 				</div>
 			</div>
 

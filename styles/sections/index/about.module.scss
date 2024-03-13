@@ -2,7 +2,6 @@
 
 // Section
 .section {
-
 	.content {
 		$padding: 2rem;
 		position: relative;
@@ -99,7 +98,7 @@
 			flex-grow: 1;
 			flex-shrink: 1;
 			position: relative;
-			border-radius: 2rem;
+			border-radius: 2rem; /* Adjust as necessary to match the border radius of the color blocks */
 			overflow: hidden;
 
 			img {

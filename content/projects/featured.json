@@ -8,9 +8,7 @@
 		"imageOptions": [
 		],
 		"images": [
-			{ "key": "mock-stack",	"hover": "right", 	"h": "1200", "w": "556", "url": "/img/msc-mock_stack/03.png" },
-			{ "key": "mock-stack",	"hover": "right",	"h": "1200", "w": "556", "url": "/img/msc-mock_stack/02.png" },
-			{ "key": "mock-stack",	"hover": "left",	"h": "1200", "w": "556", "url": "/img/msc-mock_stack/01.png" }
+			{ "key": "mock-stack",	"hover": "right", 	"h": "700", "w": "799", "url": "/img/MacBook Pro 16-1.png" }
 		],
 		"stack": [
 			{ "key": "figma", 		"name": "Figma", 		"type": "devicon" },
@@ -31,12 +29,12 @@
 		"url": "https://github.com/atlamors/portfolio",
 		"repo": "Figma - Private",
 		"descriptionTitle": "A Todo App Interface",
-		"description": "Built in Figma, using Character Builder in Canva.",
+		"description": "Built in Figma, using Character Builder in Canva. Project for Mobile Development class.",
 		"imageOptions": [
 			{ "key": "size", 		"value": "large" }
 		],
 		"images": [
-			{ "key": "portfolio", "hover": "left", "h": "797", "w": "556",  "url": "/img/portfolio-mock_single.png" }
+			{ "key": "portfolio", "hover": "left", "h": "719", "w": "500",  "url": "/img/SONOFT 3.png" }
 		],
 		"stack": [
 			{ "key": "figma", 		"name": "Figma", 		"type": "devicon" },
