@@ -1,6 +1,6 @@
 // Sections
 import GitRecentProjects from '../../components/sections/projects/recent'
-import FeaturedProjects from '../../components/sections/projects/featured'
+import OtherProjects from '../../components/sections/projects/others'
 
 import Color  from '../../components/utils/page.colors.util'
 
@@ -12,7 +12,7 @@ export default function Projects({ user, repos }) {
 	return (
 		<>
 		<Color colors={colors} />
-		<FeaturedProjects />
+		<OtherProjects />
 		<GitRecentProjects user={user} repos={repos} />
 		</>
 	)
