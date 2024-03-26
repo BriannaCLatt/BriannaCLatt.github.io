@@ -205,7 +205,7 @@ export default function Career() {
 
               <p>I have improved on:</p>
 
-              <ul>
+              <ul className={career.list}>
                 <li>
                   Developing a mindset oriented towards User-Centered Design to
                   discover requirements of users, stakeholders, and technology
@@ -247,34 +247,41 @@ export default function Career() {
                 <h5>University of Central Florida</h5>
               </span>
               <p>
-                Completing this course equipped me with essential web
-                development skills for professional websites, including
-                data-driven content and interactive design. I learned to apply
-                user experience principles and create sophisticated web
-                applications, enhancing engagement across devices. <br /> The
-                skills I honed during the course enabled me to:
+                After completing this course, I gained a comprehensive
+                understanding of developing professional websites, focusing on
+                the nuances of information architecture and experience design
+                across various platforms. This journey included learning about
+                data-driven documents, interactive visualizations, user
+                experience, information design, and web application development.
               </p>
-              <ul>
+
+              <p>Skills Gained:</p>
+
+              <ul className={career.list}>
                 <li>
-                  Master core scripting principles by utilizing contemporary
-                  client-side scripting languages.
+                  Developed and presented case studies analyzing website design
+                  successes and shortcomings.
+                </li>
+                <li>Crafted professional-quality websites.</li>
+                <li>
+                  Collaborated effectively within a design and development team,
+                  managing and producing projects.
                 </li>
                 <li>
-                  Address common web design challenges with a strategic,
-                  programming-oriented mindset.
+                  Applied best practices in tools, technologies, and methods for
+                  web production.
                 </li>
                 <li>
-                  Utilize industry-standard tools to design web page layouts,
-                  and effectively bring these designs to life on web servers.
+                  Analyzed site designs through comprehensive case studies.
                 </li>
                 <li>
-                  Integrate JavaScript into web layouts to craft dynamic and
-                  interactive user experiences.
+                  Implemented information architecture and experience design
+                  principles.
                 </li>
-                <li>Extract and process user data with Regular Expressions.</li>
+                <li>Enhanced my design and development creativity.</li>
                 <li>
-                  Read, manipulate, and store information efficiently, adhering
-                  to the latest best practices in web development.
+                  Created a portfolio piece showcasing my skills for potential
+                  employers.
                 </li>
               </ul>
             </div>
@@ -288,11 +295,36 @@ export default function Career() {
                 <h4>Spring 2024</h4>
                 <h5>University of Central Florida</h5>
               </span>
-              <p>I was the Electronics Wizard 🧙‍♂️</p>
               <p>
-                West Coast Electronics was a repair shop that fixed computers,
-                consoles, and cell phones.
+                I enhanced my mobile app development skills, focusing on React
+                and React Native. I developed a portfolio emphasizing key design
+                principles. This prepared me for tech roles, from design to
+                consultancy, by refreshing my JavaScript, mastering
+                documentation, and creating applications.
               </p>
+              <p>Key Insights Gained:</p>
+              <ul>
+                <li>
+                  Revisiting JavaScript ES6: Through engaging object-oriented
+                  projects, I refreshed and deepened my JavaScript skills,
+                  understanding the language more profoundly.
+                </li>
+                <li>
+                  Mastering Documentation: I learned the importance of
+                  documentation in debugging and the software development
+                  lifecycle, honing my ability to document work effectively.
+                </li>
+                <li>
+                  Crafting React Projects: By applying React's component model,
+                  I developed essential skills for modern web development,
+                  creating robust web applications.
+                </li>
+                <li>
+                  Exploring React Native: The program introduced me to React
+                  Native's mobile-first design principles, enabling me to build
+                  functional and user-friendly mobile apps.
+                </li>
+              </ul>
             </div>
             <div className={career.companyAlt}></div>
           </article>
@@ -304,11 +336,35 @@ export default function Career() {
                 <h4>Spring 2024</h4>
                 <h5>University of Central Florida</h5>
               </span>
-              <p>I was the Electronics Wizard 🧙‍♂️</p>
               <p>
-                West Coast Electronics was a repair shop that fixed computers,
-                consoles, and cell phones.
+                This program expanded my skills in asynchronous web development,
+                focusing on advanced server-side and client-side scripting, and
+                database technologies. The training emphasized building on
+                existing platforms like WordPress and Webflow, highlighting the
+                importance of communication, creative design, and managing
+                expectations in web development.
               </p>
+
+              <p>Achievements:</p>
+              <ul>
+                <li>
+                  Understood the significance and potential of content
+                  management systems, particularly WordPress, in web
+                  development.
+                </li>
+                <li>
+                  Crafted custom themes and plugins, showcasing my technical
+                  creativity.
+                </li>
+                <li>
+                  Leveraged AI tools within web development workflows for
+                  innovative solutions.
+                </li>
+                <li>
+                  Designed projects and defined requirements by effectively
+                  communicating with stakeholders.
+                </li>
+              </ul>
             </div>
             <div className={career.companyAlt}></div>
           </article>
