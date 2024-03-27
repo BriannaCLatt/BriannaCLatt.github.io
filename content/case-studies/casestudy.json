@@ -1,52 +1,39 @@
 [
     {
       "project": "The Suite Spot",
-      "url": "https://github.com/lwolbrink23/group8",
-      "repo": "Github - Public",
-      "descriptionTitle": "A salon suite website with a mobile first design.",
+      "url": "https://brianna-lattimore.me/case-studies/the-suite-spot",
+      "repo": "Figma/Google Docs",
+      "descriptionTitle": "Where Beauty Finds its Home",
       "description": "A salon suite website with a mobile first design. Project for Workshop 2 class.",
       "imageOptions": [],
       "images": [
         {
           "key": "mock-stack",
           "hover": "right",
-          "h": "700",
-          "w": "850",
-          "url": "/img/MacBook Pro 16-1.png"
+          "h": "480",
+          "w": "480",
+          "url": "/img/TSS Circle Logo.png"
         }
       ],
       "stack": [
-        { "key": "figma", "name": "Figma", "type": "devicon" },
-        { "key": "react", "name": "React", "type": "devicon" },
-        { "key": "nodejs", "name": "Node.js", "type": "devicon" },
-        { "key": "mongodb", "name": "MongoDB", "type": "devicon" },
-        { "key": "javascript", "name": "JavaScript", "type": "devicon" },
-        { "key": "html5", "name": "HTML5", "type": "devicon" },
-        {
-          "key": "express-original colored",
-          "name": "Express.js",
-          "type": "devicon"
-        },
-        { "key": "redux", "name": "Redux", "type": "devicon" },
-        { "key": "css3", "name": "CSS3", "type": "devicon" },
-        { "key": "git", "name": "Git", "type": "devicon" },
-        { "key": "github", "name": "Github", "type": "devicon" }
+        { },
+        { }
       ]
     },
     {
       "project": "AudioBubble",
       "url": "https://docs.google.com/document/d/17tybxHEBa76BTuu1zU9lg1eWr1ykzmZkYKFs7cMpl7g/edit?usp=sharing",
-      "repo": "Figma/Google Docs",
-      "descriptionTitle": "A Todo App Interface",
-      "description": "Built in Figma, using Character Builder in Canva. Project for Mobile Development class.",
-      "imageOptions": [{ "key": "size", "value": "large" }],
+      "repo": "Google Docs",
+      "descriptionTitle": "Content Streaming Hub",
+      "description": "A mobile app designed to allow users to watch and listen to content togther while chatting in real-time. Built in Figma. Project for User Centered Design class.",
+      "imageOptions": [],
       "images": [
         {
           "key": "portfolio",
-          "hover": "left",
-          "h": "730",
-          "w": "500",
-          "url": "/img/SONOFT 3.png"
+          "hover": "center",
+          "h": "480",
+          "w": "480",
+          "url": "/img/AudioBb.png"
         }
       ],
       "stack": [

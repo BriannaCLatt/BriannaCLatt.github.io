@@ -3,7 +3,7 @@
     "project": "The Suite Spot",
     "url": "https://github.com/lwolbrink23/group8",
     "repo": "Github - Public",
-    "descriptionTitle": "A salon suite website with a mobile first design.",
+    "descriptionTitle": "Where Beauty Finds its Home",
     "description": "A salon suite website with a mobile first design. Project for Workshop 2 class.",
     "imageOptions": [],
     "images": [
@@ -11,7 +11,7 @@
         "key": "mock-stack",
         "hover": "right",
         "h": "700",
-        "w": "850",
+        "w": "900",
         "url": "/img/MacBook Pro 16-1.png"
       }
     ],
@@ -37,8 +37,8 @@
     "project": "SONOFT",
     "url": "https://www.figma.com/proto/33Ix0jOLWEVuxVqiZSGDGn/SONOFT?page-id=0%3A1&type=design&node-id=7-224&viewport=165%2C386%2C0.22&t=Blx2eToOzwfwL6ES-1&scaling=scale-down&starting-point-node-id=1%3A2&mode=design",
     "repo": "Figma - Private",
-    "descriptionTitle": "A Todo App Interface",
-    "description": "Built in Figma, using Character Builder in Canva. Project for Mobile Development class.",
+    "descriptionTitle": "Simple Organizer for Necessary but Often Forgotten Tasks",
+		"description": "A Todo app interface built in Figma and utilized Character Builder in Canva. Project for Mobile Development class.",
     "imageOptions": [{ "key": "size", "value": "large" }],
     "images": [
       {
@@ -58,8 +58,8 @@
     "project": "Bolt+Intensity",
     "url": "https://www.figma.com/proto/Gl9BZtUYjHnTqHIEmAX80p/Bolt%2BIntensity?type=design&node-id=5-90&t=WngNKZjW2odz246h-1&scaling=scale-down&page-id=0%3A1&starting-point-node-id=5%3A90&mode=design",
     "repo": "Figma - Private",
-    "descriptionTitle": "A Fitness Mobile App Interface",
-    "description": "Built in Figma, Project for Mobile Development class.",
+    "descriptionTitle": " A Fitness Mobile App Interface",
+    "description": "Built in Figma. Project for Mobile Development class.",
     "imageOptions": [{ "key": "size", "value": "large" }],
     "images": [
       {
@@ -75,8 +75,8 @@
   {
     "project": "2KanBop",
     "url": "https://www.figma.com/proto/PTuTthu7bep147FTsQj70c/2KanBop?page-id=0%3A1&type=design&node-id=79-2&viewport=848%2C476%2C0.74&t=qBZVs68EvqMzJ9QN-1&scaling=scale-down&starting-point-node-id=79%3A2&mode=design",
-    "repo": "Figma - Private Wordpress - Public",
-    "descriptionTitle": "A Social Media and Fandom Merch App for those who enjoy Korean culture.",
+    "repo": "Figma - Private/Wordpress - Public",
+    "descriptionTitle": "A social media and fandom merch app for those who enjoy Korean culture.",
     "description": "Built in Figma, promotional website on Wordpress. Project for Social Platforms class.",
     "imageOptions": [{ "key": "size", "value": "large" }],
     "images": [

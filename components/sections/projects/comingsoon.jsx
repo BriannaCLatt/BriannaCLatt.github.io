@@ -1,4 +1,4 @@
-import FeaturedProject from '../../blocks/projects/featured'
+import FeaturedProject from '../../blocks/projects/caseStudy'
 
 
 // Section structure

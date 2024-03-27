@@ -57,7 +57,10 @@ export default function FeaturedProject({ content }, index) {
           </div>
           <div className={css.description}>
             <p>
-              <strong>{descriptionTitle}</strong> {description}
+              <strong>{descriptionTitle}</strong>
+              <br />
+              <br />
+             {description}
             </p>
           </div>
           <div className={css.stackContainer}>
