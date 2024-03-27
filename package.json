@@ -5,7 +5,7 @@
 		"start": "next start",
 		"lint": "next lint",
 		"test": "jest --watch",
-		"publish": "gh-pages -d src"
+		"publish": "gh-pages -d pages"
 	},
 	"dependencies": {
 		"@fontsource/fira-code": "^5.0.17",
