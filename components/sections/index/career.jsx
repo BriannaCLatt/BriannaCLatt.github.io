@@ -157,7 +157,7 @@ export default function Career() {
                 <p>
                   Delving into back-end web development, I focused on PHP and
                   MySQL, gaining a solid understanding of server-side
-                  scripting's crucial role in web applications. This experience
+                  scripting&#39;s crucial role in web applications. This experience
                   enhanced my practical skills in managing and manipulating data
                   across diverse web development architectures, equipping me
                   with the knowledge to tackle various digital projects
@@ -166,7 +166,7 @@ export default function Career() {
                 <p>My skills now entail:</p>
                 <ul className={career.list}>
                   <li>
-                    Understanding NodeJS, SQL, and NoSQL's roles in web
+                    Understanding NodeJS, SQL, and NoSQL&#39;s roles in web
                     development and their integration with HTML and CSS.
                   </li>
                   <li>
@@ -175,7 +175,7 @@ export default function Career() {
                   <li>Managing MySQL and MongoDB databases.</li>
                   <li>
                     Using NodeJS to perform operations like creating, accessing,
-                    updating, and deleting data on databases, whether they're
+                    updating, and deleting data on databases, whether they&#39;re
                     hosted locally or remotely.
                   </li>
                 </ul>
@@ -315,13 +315,13 @@ export default function Career() {
                   lifecycle, honing my ability to document work effectively.
                 </li>
                 <li>
-                  Crafting React Projects: By applying React's component model,
+                  Crafting React Projects: By applying React&#39;s component model,
                   I developed essential skills for modern web development,
                   creating robust web applications.
                 </li>
                 <li>
                   Exploring React Native: The program introduced me to React
-                  Native's mobile-first design principles, enabling me to build
+                  Native&#39;s mobile-first design principles, enabling me to build
                   functional and user-friendly mobile apps.
                 </li>
               </ul>
