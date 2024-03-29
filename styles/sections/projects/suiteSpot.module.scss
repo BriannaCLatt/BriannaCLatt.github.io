@@ -1,0 +1,79 @@
+.sketch-proto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+
+  .tss-section-title {
+    font-size: smaller;
+  }
+
+  .sketch-proto-text {
+    font-size: larger;
+  }
+
+  .design-develop {
+    width: 100px; /* smaller size for design-develop images */
+    height: auto;
+  }
+
+  .sketchM,
+  .sketchW {
+    width: 400px; /* bigger size for sketchM and sketchW images */
+    height: auto;
+  }
+
+  .protoM,
+  .protoW {
+    width: 450px; /* bigger size for protoM and protoW images */
+    height: auto;
+  }
+
+  .overview-section,
+  .documentation-section,
+  .challenges-successes-section,
+  .prototypes-section,
+  .results-section,
+  .conclusion-section {
+    margin: 0 auto; /* centering entire content */
+    max-width: 800px; /* limiting max width for better readability */
+  }
+
+  /* Media Queries */
+  @media screen and (max-width: 1024px) {
+    .sketchM,
+    .sketchW {
+      width: 300px; /* adjust size for tablet screens */
+    }
+
+    .protoM,
+    .protoW {
+      width: 350px; /* adjust size for tablet screens */
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    .design-develop {
+      width: 70px; /* adjust size for mobile screens */
+    }
+
+    .sketchM,
+    .sketchW {
+      width: 250px; /* adjust size for mobile screens */
+    }
+
+    .protoM,
+    .protoW {
+      width: 300px; /* adjust size for mobile screens */
+    }
+
+    .tss-section-title {
+      font-size: smaller; /* adjust font size for mobile screens */
+    }
+
+    .sketch-proto-text {
+      font-size: larger; /* adjust font size for mobile screens */
+    }
+  }
+}
+
