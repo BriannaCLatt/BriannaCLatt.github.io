@@ -1,44 +1,34 @@
 [
-    {
-      "project": "The Suite Spot",
-      "url": "/suite-spot",
-      "repo": "Figma/Google Docs",
-      "descriptionTitle": "Where Beauty Finds its Home",
-      "description": "A salon suite website with a mobile first design. Project for Workshop 2 class.",
-      "imageOptions": [],
-      "images": [
-        {
-          "key": "mock-stack",
-          "hover": "right",
-          "h": "480",
-          "w": "480",
-          "url": "/img/TSS Circle Logo.png"
-        }
-      ],
-      "stack": [
-        { },
-        { }
-      ]
-    },
-    {
-      "project": "AudioBubble",
-      "url": "https://docs.google.com/document/d/17tybxHEBa76BTuu1zU9lg1eWr1ykzmZkYKFs7cMpl7g/edit?usp=sharing",
-      "repo": "Google Docs",
-      "descriptionTitle": "Content Streaming Hub",
-      "description": "A mobile app designed to allow users to watch and listen to content togther while chatting in real-time. Built in Figma. Project for User Centered Design class.",
-      "imageOptions": [],
-      "images": [
-        {
-          "key": "portfolio",
-          "hover": "center",
-          "h": "480",
-          "w": "480",
-          "url": "/img/AudioBb.png"
-        }
-      ],
-      "stack": [
-        { },
-        { }
-      ]
-    }
-  ]
+  {
+    "project": "The Suite Spot",
+    "url": "/suite-spot",
+    "repo": "Figma/Google Docs",
+    "descriptionTitle": "Where Beauty Finds its Home",
+    "description": "A salon suite website with a mobile first design. Project for Workshop 2 class.",
+    "images": [
+      {
+        "key": "mock-stack",
+        "hover": "right",
+        "h": "480",
+        "w": "400",
+        "url": "/img/TSS Circle Logo.png"
+      }
+    ]
+  },
+  {
+    "project": "AudioBubble",
+    "url": "https://docs.google.com/document/d/17tybxHEBa76BTuu1zU9lg1eWr1ykzmZkYKFs7cMpl7g/edit?usp=sharing",
+    "repo": "Google Docs",
+    "descriptionTitle": "Content Streaming Hub",
+    "description": "A mobile app designed to allow users to watch and listen to content togther while chatting in real-time. Built in Figma. Project for User Centered Design class.",
+    "images": [
+      {
+        "key": "portfolio",
+        "hover": "center",
+        "h": "480",
+        "w": "480",
+        "url": "/img/AudioBb.png"
+      }
+    ]
+  }
+]

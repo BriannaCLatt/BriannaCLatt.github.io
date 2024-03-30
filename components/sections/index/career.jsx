@@ -303,7 +303,7 @@ export default function Career() {
                 documentation, and creating applications.
               </p>
               <p>Key Insights Gained:</p>
-              <ul>
+              <ul className={career.list}>
                 <li>
                   Revisiting JavaScript ES6: Through engaging object-oriented
                   projects, I refreshed and deepened my JavaScript skills,
@@ -346,7 +346,7 @@ export default function Career() {
               </p>
 
               <p>Achievements:</p>
-              <ul>
+              <ul className={career.list}>
                 <li>
                   Understood the significance and potential of content
                   management systems, particularly WordPress, in web

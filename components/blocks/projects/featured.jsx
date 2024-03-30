@@ -58,9 +58,9 @@ export default function FeaturedProject({ content }, index) {
           <div className={css.description}>
             <p>
               <strong>{descriptionTitle}</strong>
+               <br />
               <br />
-              <br />
-             {description}
+            {description}
             </p>
           </div>
           <div className={css.stackContainer}>
@@ -72,9 +72,9 @@ export default function FeaturedProject({ content }, index) {
             />
           </div>
           <m.div variants={""} className={css.viewProject}>
-            <Link href={url} aria-label={`View project ${project}`}>
-              <Icon icon={["fad", "arrow-right-to-bracket"]} />
-            </Link>
+          <a href={url} target="_blank" rel="noopener noreferrer" aria-label={`View project ${project}`}>
+    <Icon icon={["fad", "arrow-right-to-bracket"]} />
+  </a>
           </m.div>
         </div>
       </div>

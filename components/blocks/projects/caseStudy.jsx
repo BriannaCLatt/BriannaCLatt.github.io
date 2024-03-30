@@ -1,8 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
-import Badges from "../../utils/badge.list.util";
 import Icon from "../../utils/icon.util";
-import css from "../../../styles/sections/projects/featured.module.scss";
+import css from "../../../styles/sections/projects/casestudy.module.scss";
 import content from "../../../content/projects/featured.json";
 
 export default function FeaturedProject({ content }) {
@@ -16,8 +15,16 @@ export default function FeaturedProject({ content }) {
     images,
   } = content;
 
+  const imageStyle = {
+    borderRadius: '2rem', // Rounded corners for the image
+    objectFit: 'cover',   // Cover the area without distorting aspect ratio
+    width: '100%',        // Image takes the full width of its container
+    height: 'auto'        // Height is automatic to maintain aspect ratio
+  };
+
+
   return (
-    <section key={project} className={css.project}>
+    <section key={project} className={css.caseStudy}>
       <div className={css.details}>
         <div className={css.projectHeader}>
           <div className={css.header}>
@@ -33,12 +40,6 @@ export default function FeaturedProject({ content }) {
             </p>
           </div>
           <div className={css.stackContainer}>
-            <Badges
-              list={stack}
-              block="stack"
-              fullContainer={false}
-              color={false}
-            />
           </div>
           <div className={css.viewProject}>
             <Link href={url} aria-label={`View project ${project}`}>
@@ -50,8 +51,15 @@ export default function FeaturedProject({ content }) {
 
       <div className={css.imageContainer}>
         {images.map(({ key, url, h, w }, index) => (
-          <div key={`${index}-${key}`}>
-            <Image src={url} alt="x" height={h} width={w} />
+        <div key={`${index}-${key}`} style={{ width: '100%', height: 'auto' }}>
+        <Image 
+          src={url} 
+          alt={project} 
+          layout="responsive" 
+          width={w} 
+          height={h} 
+          style={imageStyle}
+        />
           </div>
         ))}
       </div>

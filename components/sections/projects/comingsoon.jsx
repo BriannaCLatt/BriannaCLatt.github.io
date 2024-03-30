@@ -4,7 +4,6 @@ import FeaturedProject from '../../blocks/projects/caseStudy'
 // Section structure
 import Section 		from '../../structure/section';
 import Container 	from '../../structure/container';
-import Badges 		from '../../utils/badge.list.util'
 import Icon 		from '../../utils/icon.util'
 import SectionTitle from '../../blocks/section.title.block'
 

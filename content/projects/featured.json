@@ -8,7 +8,7 @@
 		"imageOptions": [
 		],
 		"images": [
-			{ "key": "mock-stack",	"hover": "right", 	"h": "700", "w": "900", "url": "/img/MacBook Pro 16-1.png" }
+			{ "key": "mock-stack",	"hover": "right", 	"h": "600", "w": "900", "url": "/img/MacBook Pro 16-1.png" }
 		],
 		"stack": [
 			{ "key": "figma", 		"name": "Figma", 		"type": "devicon" },
@@ -16,7 +16,6 @@
 			{ "key": "nodejs", 		"name": "Node.js", 		"type": "devicon" },
 			{ "key": "mongodb", 	"name": "MongoDB", 		"type": "devicon" },
 			{ "key": "javascript", 	"name": "JavaScript", 	"type": "devicon" },
-			{ "key": "html5", 	"name": "HTML5", 	"type": "devicon" },
 			{ "key": "express-original colored", 	"name": "Express.js", 	"type": "devicon" },
 			{ "key": "redux",		"name": "Redux", 		"type": "devicon" },
 			{ "key": "css3",		"name": "CSS3", 		"type": "devicon" },

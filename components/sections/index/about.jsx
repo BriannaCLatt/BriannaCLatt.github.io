@@ -30,7 +30,7 @@ export default function About() {
         <SectionTitle
           title="About Me"
           preTitle="Synopsis"
-          subTitle="I have honed a comprehensive skill set encompassing UI/UX Design, front-end, and backend development over the last four years. This period has been marked by a steadfast commitment to excellence and continuous improvement in these areas."
+          subTitle="I love to create intuitve and visually-appealing interfaces. I'm always open to trying and learning new things."
         />
         <section className={about.content}>
           <div className={about.image}>
@@ -65,8 +65,8 @@ export default function About() {
 const methods = [
   { key: "planet-moon", name: "User Research", type: "fad" },
   { key: "chart-simple", name: "Market Analysis", type: "fad" },
-  { key: "universal-access", name: "Accesibility", type: "far" },
-  { key: "network-wired", name: "Information Architecture", type: "far" },
+  { key: "universal-access", name: "WCAG", type: "far" },
+  { key: "network-wired", name: "Info Structure", type: "far" },
   { key: "lightbulb", name: "Content Strategy", type: "fas" },
   { key: "clipboard-user", name: "Usability Testing", type: "fas" },
 ];

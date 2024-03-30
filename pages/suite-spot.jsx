@@ -50,6 +50,7 @@ export default function SuiteSpotPage() {
           />
         <section className="overview-section">
           <h2 className="tss-section-title">What is The Suite Spot?</h2>
+          <br/>
           <p>
             "The Suite Spot" is a user-friendly website designed primarily for
             mobile devices, catering to professionals renting salon suites and
@@ -57,6 +58,7 @@ export default function SuiteSpotPage() {
             central platform where business owners and their customers can
             connect seamlessly.
           </p>
+          <br/>
           <h3>For the professionals: </h3>
           <ul>
             <li>Manage their own enterprises within our salon suites.</li>
@@ -65,6 +67,7 @@ export default function SuiteSpotPage() {
             <li>Inform clients about offered services and special promotions for enhanced visibility.</li>
             <li>Highlight current promotions on the homepage to boost appointment bookings.</li>
           </ul>
+          <br/>
           <h3>For the clients:</h3>
           <ul>
             <li>Schedule appointments conveniently for a personalized experience.</li>
@@ -125,7 +128,7 @@ export default function SuiteSpotPage() {
                 through the website.
               </p>
             </div>
-            <br/>
+            <br/> <br/>
             <div>
               <h3>Challenge 2</h3>
               <p>
@@ -146,11 +149,12 @@ export default function SuiteSpotPage() {
             </div>
           </section>
 
-        {/* Low-Fi Prototypes Section */}
+        {/* Low-Fi Prototypes/Sketches Section */}
         <section className="prototypes-section">
           <h2 className="tss-section-title">The Vision: Sketching and Prototyping</h2>
           <div className="screenshot-container">
-            <h2 className="sketch-proto">UX Sketches</h2>
+            <br/><br/>
+            <h2 className="sketch-proto" style={{ fontSize: '25px' }}>UX Sketches</h2>
             <br/>
             <p>Click on the image to view the sketches.</p>
             <br/><br/>
@@ -169,7 +173,7 @@ export default function SuiteSpotPage() {
 </div>
           <br/>
           <div className="screenshot-container">
-            <h2 className="sketch-proto">Lo-fi Prototypes</h2>
+            <h2 className="sketch-proto" style={{ fontSize: '25px' }}>Lo-fi Prototypes</h2>
             <br/>
             <p>Click on the image to view the prototypes.</p>
             <br/><br/>
@@ -209,6 +213,29 @@ export default function SuiteSpotPage() {
           </ul>
           <br/>
           <p>User testing and task analysis have refined specific aspects, guiding informed refinements as we transitioned from design to a functional website.</p>
+        </section>
+
+                {/* Hi-Fi Prototypes Section */}
+                <section className="prototypes-section">
+          <h2 className="tss-section-title">The Vision: The Final Countdown</h2>
+          <br/><br/>
+          <div className="screenshot-container">
+            <h2 className="sketch-proto" style={{ fontSize: '25px' }}>Hi-fi Prototypes</h2>
+            <br/>
+            <p>Click on the image to view the prototypes.</p>
+            <br/><br/>
+            <h3>Mobile</h3>
+            <br/>
+            <a href="https://www.figma.com/proto/xBcWK5LhvhetgYrxEitJa4/Mobile-HiFi-Prototype?page-id=0%3A1&type=design&node-id=1-2&viewport=215%2C315%2C0.04&t=Q6ZCoICXgzRD0eL4-1&scaling=scale-down&starting-point-node-id=1%3A2&show-proto-sidebar=1&mode=design" target="_blank" rel="noopener noreferrer" style={{ display: 'block', margin: 'auto', textAlign: 'center' }}>
+  <img className="protoM" src="/img/after mobile 1.png" alt="Mobile Hi-fi prototype for The Suite Spot" style={{ width: '80%', height: 'auto', margin: 'auto' }} />
+</a></div>
+            <div className="screenshot-container">
+            <h3>Web</h3>
+            <br/>
+  <a href="https://www.figma.com/proto/PBrgGbarppN9gmbtOgJ2SG/Web-HiFi-Prototype?page-id=0%3A1&type=design&node-id=1-2&viewport=331%2C107%2C0.44&t=hxhh319RSqf6Es8g-1&scaling=scale-down&starting-point-node-id=1%3A2&show-proto-sidebar=1&mode=design" target="_blank" rel="noopener noreferrer">
+    <img className="protoW" src="/img/HiWeb.png" alt="Web Hi-fi prototype for The Suite Spot" />
+  </a>
+</div>
         </section>
 
         {/* Conclusion */}

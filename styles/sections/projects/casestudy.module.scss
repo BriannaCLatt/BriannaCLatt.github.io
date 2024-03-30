@@ -4,7 +4,7 @@
 	border-bottom: 1px solid var(--primary-dark);
 }
 
-.project {
+.caseStudy {
 	display: flex;
 	flex-direction: row;
 	flex-wrap: nowrap;
@@ -109,7 +109,6 @@
 	border-radius: 1rem;
 	flex-grow: 1;
 	flex-shrink: 0;
-	pointer-events: none;
 
 	.imageAnimationContainer {
 		position: absolute;
@@ -283,78 +282,39 @@
 }
 
 @include media($max: $mobile) {
-	.project {
-		&:nth-of-type(n) {
-			flex-direction: column;
-
-			&:hover {
-				.details {
-					border-color: var(--primary-dim2);
-				}
-			}
-
-			.details {
-				border-radius: 1rem;
-				padding: var(--size-2x);
-			}
-
-			.stackContainer {
-				--padding-top: 1.5rem;
-
-				h4 { 
-					text-align: center;
-					display: none;
-				}
-				ul {
-					font-size: .6rem;
-				}
-			}
-
-			.imageContainer {
-				height: 100px;
+	.caseStudy {
+	  &:nth-of-type(n) {
+		flex-direction: column;
+		align-items: center;
+  
+		.details {
+		  width: 100%;
+		  padding: var(--size-2x);
+		  border-radius: 1rem;
+		}
+  
+		.imageContainer {
+		  width: 100%;
+		  max-width: none;
+		}
+  
+		.imageAnimationContainer {
+		  width: 100%;
+		  
+		  > div > div {
+			span {
+			  display: block;
+			  width: 100%;
+			  img {
 				width: 100%;
+				height: auto;
+				max-width: 100%;
+				object-fit: cover;
+			  }
 			}
-
-			.imageAnimationContainer {
-				height: calc(100% + 6rem);
-				width: 100%;
-		
-				> div > div {
-					> span {
-						img {
-							width: calc(556px / 2) !important;
-						}
-					}
-				}
-			}
+		  }
 		}
-
-		&:nth-of-type(2n+1) {
-			.imageAnimationContainer {
-				> div > div {
-					> span {
-						right: 2rem;
-					}
-				}
-			}
-		}
-
-		&:nth-of-type(2n) {
-			.imageAnimationContainer {
-				> div > div {
-					> span {
-						right: 0rem;
-					}
-				}
-			}
-		}
+	  }
 	}
-	
-	.bgContainer {
-		.orbitalBg {
-			width: unset;
-			height: 100%;
-		}
-	}
-}
-
+  }
+  
