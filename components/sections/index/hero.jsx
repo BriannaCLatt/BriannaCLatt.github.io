@@ -68,7 +68,7 @@ export default function Hero() {
 							onClick={ () => window.location = 'mailto:brialattimore22@gmail.com' } >
 						{content.buttons.primary.title}
 					</button>
-					<button className={`button ${button.secondary} leaveSite`}
+					<button className={`button ${button.secondary} leaveSite ${hero.secondaryButtonExtraMargin}`}
 							onClick={ ()=> window.open("https://www.linkedin.com/in/brianna-lattimore/", "_blank") } >
 						{content.buttons.secondary.title}
 					</button>
