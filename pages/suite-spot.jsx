@@ -82,7 +82,7 @@ export default function SuiteSpotPage() {
   <section className="documentation-section">
             <h2 className="tss-section-title">The Grind: Designing and Developing</h2>
             <br/>
-            <p>Click on the image to view the sketches.</p>
+            <p>Click on the image to view the documentation.</p>
             <br/><br/>
             <div style={flexContainerStyle}>
               <div style={imageContainerStyle}>
