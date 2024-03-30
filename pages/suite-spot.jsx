@@ -46,13 +46,13 @@ export default function SuiteSpotPage() {
           <SectionTitle
             title="The Suite Spot Case Study"
             preTitle="Where Beauty Finds its Home"
-            subTitle="Web Design Workshop Fall & Spring Project"
+            subTitle="Web Design Workshop Fall &amp; Spring Project"
           />
         <section className="overview-section">
           <h2 className="tss-section-title">What is The Suite Spot?</h2>
           <br/>
           <p>
-            "The Suite Spot" is a user-friendly website designed primarily for
+           &quot;The Suite Spot&quot; is a user-friendly website designed primarily for
             mobile devices, catering to professionals renting salon suites and
             their clientele. Crafted exclusively by our team, it serves as a
             central platform where business owners and their customers can
