@@ -52,7 +52,7 @@ export default function SuiteSpotPage() {
           <h2 className="tss-section-title">What is The Suite Spot?</h2>
           <br/>
           <p>
-           &quot;The Suite Spot&quot; is a user-friendly website designed primarily for
+           The Suite Spot is a user-friendly website designed primarily for
             mobile devices, catering to professionals renting salon suites and
             their clientele. Crafted exclusively by our team, it serves as a
             central platform where business owners and their customers can
@@ -132,7 +132,7 @@ export default function SuiteSpotPage() {
             <div>
               <h3>Challenge 2</h3>
               <p>
-                Initially, we underestimated the project's scale and
+                Initially, we underestimated the project&apos;s scale and
                 expectations. However, our experiences from the first phase
                 provided valuable insights, enabling us to create high-quality
                 prototypes.
@@ -243,13 +243,13 @@ export default function SuiteSpotPage() {
           <h2 className="tss-section-title">Final Touches: Completing the Relaxation Nexus</h2>
           <br/>
           <p>
-            "The Suite Spot" was a user-friendly platform designed for salon professionals and their clients. Our team crafted this mobile-first website to offer seamless management for professionals and convenient services for clients.
+          The Suite Spot was a user-friendly platform designed for salon professionals and their clients. Our team crafted this mobile-first website to offer seamless management for professionals and convenient services for clients.
             <br/><br/>
             For professionals, it provided tools to manage their businesses, showcase services, and access resources. Clients could easily schedule appointments, shop products, and stay informed about industry trends.
             <br/><br/>
             Despite challenges like time constraints, we successfully developed high-quality prototypes based on valuable user feedback. As a result, the website offered enhanced engagement, refined navigation, and improved functionality.
             <br/><br/>
-            Overall, "The Suite Spot" offered a refined user experience and valuable features for both professionals and clients. With ongoing improvements guided by user insights, we ensured its success as a functional and user-friendly platform.
+            Overall, The Suite Spot offered a refined user experience and valuable features for both professionals and clients. With ongoing improvements guided by user insights, we ensured its success as a functional and user-friendly platform.
           </p>
         </section>
         </Container>
