@@ -30,7 +30,7 @@ export default function Technical() {
 				<SectionTitle
 					title="Technical"
 					preTitle="Hardskills"
-					subTitle="As a creative, I use design and coding to build web and app experiences with various tools and languages."
+					subTitle="As a creator, I use design and coding to build web and app experiences with various tools and languages."
 				/>
 				<section className={`${about.content} ${about.container}`}>
 					<div className={about.copy}>
