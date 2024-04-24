@@ -137,6 +137,10 @@ a {
 .list {
 	list-style: disc;
 	margin-left: 1.5rem;
+	font-size: var(--font-r);
+	font-family: var(--font-sans);
+	line-height: 1.6;
+	letter-spacing: -.02rem;
 	li {
 		&::marker {
 			content: normal;
