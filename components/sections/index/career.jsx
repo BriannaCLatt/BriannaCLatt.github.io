@@ -202,9 +202,7 @@ export default function Career() {
                 improving the accuracy, efficiency, robustness, and emotional
                 engagement of systems.
               </p>
-
               <p>I have improved on:</p>
-
               <ul className="mylist" style={{ fontSize: 'var(--font-r)', fontFamily: 'var(--font-sans)', lineHeight: 1.6, letterSpacing: '-0.02rem', listStyle: 'disc !important' }}>
                 <li>
                   Developing a mindset oriented towards User-Centered Design to
@@ -254,9 +252,7 @@ export default function Career() {
                 data-driven documents, interactive visualizations, user
                 experience, information design, and web application development.
               </p>
-
               <p>Skills Gained:</p>
-
               <ul className="mylist" style={{ fontSize: 'var(--font-r)', fontFamily: 'var(--font-sans)', lineHeight: 1.6, letterSpacing: '-0.02rem', listStyle: 'disc !important' }}>
                 <li>
                   Developed and presented case studies analyzing website design
@@ -344,7 +340,6 @@ export default function Career() {
                 importance of communication, creative design, and managing
                 expectations in web development.
               </p>
-
               <p>Achievements:</p>
               <ul className="mylist" style={{ fontSize: 'var(--font-r)', fontFamily: 'var(--font-sans)', lineHeight: 1.6, letterSpacing: '-0.02rem', listStyle: 'disc !important' }}>
                 <li>
