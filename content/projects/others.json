@@ -161,5 +161,26 @@
       { "key": "reactnavigation", "name": "React Navigation", "type": "devicon" },
       { "key": "netlify", "name": "Netlify", "type": "devicon" }
     ]
+  },
+  {
+    "project": "Menu",
+    "url": "https://briannaclatt.github.io/menu/",
+    "repo": "Github - Public",
+    "descriptionTitle": "An Online Restaurant Menu",
+    "description": "Built for Mobile Development. Displays an understanding of creatiing content with React and deploying to Github Pages.",
+    "imageOptions": [{ "key": "size", "value": "large" }],
+    "images": [
+      {
+        "key": "portfolio",
+        "hover": "left",
+        "h": "528",
+        "w": "736",
+        "url": "/img/Menu.png"
+      }
+    ],
+    "stack": [
+      { "key": "react", "name": "React", "type": "devicon" },
+      { "key": "github", "name": "Github", "type": "devicon" }
+    ]
   }
 ]
