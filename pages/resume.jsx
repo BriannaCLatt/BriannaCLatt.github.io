@@ -14,7 +14,7 @@ export default function Resume() {
           <SectionTitle
             title="Resume"
             preTitle="Connection"
-          subTitle=" A dedicated professional with a diverse skill set from leadership to PHP. Discover my professional journey, ready for you to explore."
+            subTitle="A dedicated professional with a diverse skill set from leadership to PHP. Discover my professional journey, ready for you to explore."
           />
         </Container>
         <div style={{
@@ -44,7 +44,7 @@ export default function Resume() {
   src="https://www.canva.com/design/DAF9RbZ9Hl8/PmSkZCcLKAzwQgQAOf1CIA/view?embed" allowFullScreen="true" allow="fullscreen">
 </iframe>
 </div>
-<a href="https://www.canva.com/design/DAF9RbZ9Hl8/PmSkZCcLKAzwQgQAOf1CIA/view?utm_content=DAF9RbZ9Hl8&amp;utm_campaign=designshare&amp;utm_medium=embeds&amp;utm_source=link" target="_blank" rel="noopener"></a>
+<a href="https://www.canva.com/design/DAF9RbZ9Hl8/PmSkZCcLKAzwQgQAOf1CIA/view?utm_content=DAF9RbZ9Hl8&amp;utm_campaign=designshare&amp;utm_medium=embeds&amp;utm_source=link" target="_blank" rel="noopener noreferrer">View my resume on Canva</a>
 
       </Section>
     );
