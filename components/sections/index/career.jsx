@@ -47,7 +47,7 @@ export default function Career() {
                 The expertise I developed through the course equipped me with
                 the ability to:
               </p>
-              <ul className="mylist" style={{ fontSize: 'var(--font-r)', fontFamily: 'var(--font-sans)', lineHeight: 1.6, letterSpacing: '-0.02rem', listStyle: 'disc !important' }}>
+              <ul className={career.list}>
                 <li>
                   Master core scripting principles by utilizing contemporary
                   client-side scripting languages.
@@ -93,7 +93,7 @@ export default function Career() {
                 <p>
                   Through the course, I refined my abilities, enabling me to:
                 </p>
-                <ul className="mylist" style={{ fontSize: 'var(--font-r)', fontFamily: 'var(--font-sans)', lineHeight: 1.6, letterSpacing: '-0.02rem', listStyle: 'disc !important' }}>
+                <ul className={career.list}>
                   <li>
                     Acquire a foundational understanding of HTML/CSS syntax and
                     prototyping methods.
@@ -126,9 +126,7 @@ export default function Career() {
                   effectively.
                 </p>
                 <p>The skills that I acquired are:</p>
-                <ul className="mylist" style={{ fontSize: 'var(--font-r)', fontFamily: 'var(--font-sans)', lineHeight: 1.6, letterSpacing: '-0.02rem', listStyle: 'disc !important' }}>
-                  <li>Master accessibility design principles.</li>
-                  <li>Identify and mitigate design biases.</li>
+                <ul className={career.list}>
                   <li>
                     Evaluate unsuccessful design strategies for specific
                     populations.
@@ -164,7 +162,7 @@ export default function Career() {
                   effectively.
                 </p>
                 <p>My skills now entail:</p>
-                <ul className="mylist" style={{ fontSize: 'var(--font-r)', fontFamily: 'var(--font-sans)', lineHeight: 1.6, letterSpacing: '-0.02rem', listStyle: 'disc !important' }}>
+                <ul className={career.list}>
                   <li>
                     Understanding NodeJS, SQL, and NoSQL&#39;s roles in web
                     development and their integration with HTML and CSS.
@@ -203,7 +201,7 @@ export default function Career() {
                 engagement of systems.
               </p>
               <p>I have improved on:</p>
-              <ul className="mylist" style={{ fontSize: 'var(--font-r)', fontFamily: 'var(--font-sans)', lineHeight: 1.6, letterSpacing: '-0.02rem', listStyle: 'disc !important' }}>
+              <ul className={career.list}>
                 <li>
                   Developing a mindset oriented towards User-Centered Design to
                   discover requirements of users, stakeholders, and technology
@@ -253,7 +251,7 @@ export default function Career() {
                 experience, information design, and web application development.
               </p>
               <p>Skills Gained:</p>
-              <ul className="mylist" style={{ fontSize: 'var(--font-r)', fontFamily: 'var(--font-sans)', lineHeight: 1.6, letterSpacing: '-0.02rem', listStyle: 'disc !important' }}>
+              <ul className={career.list}>
                 <li>
                   Developed and presented case studies analyzing website design
                   successes and shortcomings.
@@ -299,7 +297,7 @@ export default function Career() {
                 documentation, and creating applications.
               </p>
               <p>Key Insights Gained:</p>
-              <ul className="mylist" style={{ fontSize: 'var(--font-r)', fontFamily: 'var(--font-sans)', lineHeight: 1.6, letterSpacing: '-0.02rem', listStyle: 'disc !important' }}>
+              <ul className={career.list}>
                 <li>
                   Revisiting JavaScript ES6: Through engaging object-oriented
                   projects, I refreshed and deepened my JavaScript skills,
@@ -341,7 +339,7 @@ export default function Career() {
                 expectations in web development.
               </p>
               <p>Achievements:</p>
-              <ul className="mylist" style={{ fontSize: 'var(--font-r)', fontFamily: 'var(--font-sans)', lineHeight: 1.6, letterSpacing: '-0.02rem', listStyle: 'disc !important' }}>
+              <ul className={career.list}>
                 <li>
                   Understood the significance and potential of content
                   management systems, particularly WordPress, in web

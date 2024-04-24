@@ -3,7 +3,14 @@
   flex-direction: column;
   align-items: center;
   text-align: center;
-
+  .list {
+    font-size: var(--font-r);
+      font-family: var(--font-sans);
+      line-height: 1.6;
+      letter-spacing: -0.02rem;
+      list-style: disc !important; // Note: !important may not be necessary or recommended
+  }
+  
   .tss-section-title {
     font-size: smaller;
   }
@@ -50,6 +57,13 @@
     .protoW {
       width: 350px; /* adjust size for tablet screens */
     }
+    .list {
+			font-size: var(--font-r);
+				font-family: var(--font-sans);
+				line-height: 1.6;
+				letter-spacing: -0.02rem;
+				list-style: disc !important; // Note: !important may not be necessary or recommended
+		}
   }
 
   @media screen and (max-width: 768px) {

@@ -60,7 +60,7 @@ export default function SuiteSpotPage() {
           </p>
           <br/>
           <h3>For the professionals: </h3>
-          <ul>
+          <ul className="list">
             <li>Manage their own enterprises within our salon suites.</li>
             <li>Showcase their expertise and services on personalized profiles.</li>
             <li>Access information on suite rentals and other relevant resources.</li>
@@ -69,8 +69,7 @@ export default function SuiteSpotPage() {
           </ul>
           <br/>
           <h3>For the clients:</h3>
-          <ul>
-            <li>Schedule appointments conveniently for a personalized experience.</li>
+          <ul className="list">
             <li>Stay informed about the latest trends in the industry.</li>
             <li>Shop for products from our online store and view past purchases.</li>
             <li>Easily manage appointments and update personal profiles.</li>
@@ -198,7 +197,7 @@ export default function SuiteSpotPage() {
           <p>After analyzing user testing outcomes, valuable insights were gained to enhance our prototype.</p>
           <br/>
           <h3>Adjustments made:</h3>
-          <ul>
+          <ul className="list">
             <li>Enhanced engagement in footer and newsletter subscription.</li>
             <li>Revised mobile appointments overview and homepage.</li>
             <li>Refinements to booking process.</li>

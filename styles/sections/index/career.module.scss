@@ -25,6 +25,13 @@
 			margin-bottom: .25rem;
 			opacity: .5;
 		}
+		.list {
+			font-size: var(--font-r);
+				font-family: var(--font-sans);
+				line-height: 1.6;
+				letter-spacing: -0.02rem;
+				list-style: disc !important; // Note: !important may not be necessary or recommended
+		}
 	}
 
 	.company {
@@ -77,19 +84,23 @@
 			display: flex;
 			flex-direction: column;
 			gap: 1rem;
-
+		
 			.list {
 				display: flex;
 				flex-direction: column;
-				gap: .75rem;
-
+				font-size: var(--font-r);
+				font-family: var(--font-sans);
+				line-height: 1.6;
+				letter-spacing: -0.02rem;
+				list-style: disc !important; // Note: !important may not be necessary or recommended
+		
 				.subList {
 					position: relative;
 					margin-left: 2rem;
 					margin-top: .5rem;
 					display: block;
 					color: var(--primary);
-
+		
 					.bullet {
 						position: absolute;
 						margin-left: -1.5rem;
@@ -98,9 +109,9 @@
 						}
 					}
 				}
-				
 			}
 		}
+		
 	}
 
 	.technicalSvg {
@@ -134,17 +145,17 @@
 				max-width: 100%;
 			}
 			p {
-				font-size: .8rem;
+				font-size: .8rem !important;
 			}
 			ul.list {
 				li {
-					font-size: .8rem;
+					font-size: .8rem !important ;
 				}
 			}
 			
 			ul:not(.list) {
 				li {
-					font-size: .6rem;
+					font-size: .8rem !important;
 				}
 			}
 		}
