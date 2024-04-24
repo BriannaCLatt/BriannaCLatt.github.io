@@ -98,7 +98,7 @@
   },
   {
     "project": "Quiz App",
-    "url": "https://www.figma.com/proto/PTuTthu7bep147FTsQj70c/2KanBop?page-id=0%3A1&type=design&node-id=79-2&viewport=848%2C476%2C0.74&t=qBZVs68EvqMzJ9QN-1&scaling=scale-down&starting-point-node-id=79%3A2&mode=design",
+    "url": "https://lab10-disney-quiz.netlify.app/",
     "repo": "Github - Public",
     "descriptionTitle": "Disney Themed Quiz",
     "description": "A simple quiz app created for a Mobile Development course to showcase my skills and improvement in developing with React Native and Expo Go.",
@@ -120,7 +120,7 @@
   },
   {
     "project": "Exercise App",
-    "url": "https://www.figma.com/proto/PTuTthu7bep147FTsQj70c/2KanBop?page-id=0%3A1&type=design&node-id=79-2&viewport=848%2C476%2C0.74&t=qBZVs68EvqMzJ9QN-1&scaling=scale-down&starting-point-node-id=79%3A2&mode=design",
+    "url": "https://bolt-intensity.netlify.app",
     "repo": "Github - Public",
     "descriptionTitle": "Functional Deployment",
     "description": "Deployed on Netlify using React Native and Expo Go. This project demonstrates core functionality such as real-time user interaction and data management. Built for Mobile Development.",
@@ -131,7 +131,7 @@
         "hover": "left",
         "h": "528",
         "w": "736",
-        "url": "img/Boltify.png"
+        "url": "/img/Boltify.png"
       }
     ],
     "stack": [
@@ -142,7 +142,7 @@
   },
   {
     "project": "Todo App",
-    "url": "https://www.figma.com/proto/PTuTthu7bep147FTsQj70c/2KanBop?page-id=0%3A1&type=design&node-id=79-2&viewport=848%2C476%2C0.74&t=qBZVs68EvqMzJ9QN-1&scaling=scale-down&starting-point-node-id=79%3A2&mode=design",
+    "url": "https://todo-app-sonoft.netlify.app/",
     "repo": "Github - Public",
     "descriptionTitle": "From Concept to Implementation of a Productivity App",
     "description": "This project highlights a functional of a todo app with login and registration features as well as robust form validation. Developed using React Native and Expo Go.",
