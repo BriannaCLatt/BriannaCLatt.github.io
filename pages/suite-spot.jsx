@@ -1,10 +1,7 @@
 import React, { useState, useEffect } from "react";
-import Color from "../components/utils/page.colors.util";
-import settings from "../content/_settings.json";
 import Section from "../components/structure/section";
 import Container from "../components/structure/container";
 import SectionTitle from "../components/blocks/section.title.block";
-import colors from "../content/case-studies/_colors.json";
 import css from "../styles/sections/projects/featured.module.scss";
 
 export default function SuiteSpotPage() {
@@ -40,7 +37,6 @@ export default function SuiteSpotPage() {
     const imageStyle = { width: '80%', height: 'auto', margin: 'auto' };
   return (
     <>
-      <Color colors={colors} />
       <Section classProp={css.hasBg}>
         <Container spacing={"verticalXXXXLrg"}>
           <SectionTitle

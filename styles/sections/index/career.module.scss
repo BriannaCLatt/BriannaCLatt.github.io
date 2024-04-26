@@ -129,10 +129,6 @@
 @include media($max: $mobile) {
 	.section {
 		.area {
-			.company,
-			.position {
-				padding: 2rem 1rem;
-			}
 			.position {
 				padding-bottom: 1rem;
 				--padding-top: 1rem;
