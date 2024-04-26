@@ -2,7 +2,8 @@ import Image from "next/image";
 import Link from "next/link";
 import Icon from "../../utils/icon.util";
 import Section from "../../structure/section"
-import css from "../../../styles/sections/projects/casestudy.module.scss";
+import myCss from "../../../styles/sections/projects/casestudy.module.scss";
+import css from "../../../styles/sections/projects/featured.module.scss";
 import content from "../../../content/projects/featured.json";
 
 export default function FeaturedProject({ content }) {
@@ -26,14 +27,14 @@ export default function FeaturedProject({ content }) {
 
   return (
     <Section classProp={css.hasBg}>
-    <section key={project} className={css.caseStudy}>
-      <div className={css.details}>
-        <div className={css.projectHeader}>
-          <div className={css.header}>
+    <section key={project} className={myCss.caseStudy}>
+      <div className={myCss.details}>
+        <div className={myCss.projectHeader}>
+          <div className={myCss.header}>
             <h3 className="highlight">{project}</h3>
-            <span className={css.privateOr}>{repo}</span>
+            <span className={myCss.privateOr}>{repo}</span>
           </div>
-          <div className={css.description}>
+          <div className={myCss.description}>
             <p>
               <strong>{descriptionTitle}</strong>
               <br />
@@ -41,7 +42,7 @@ export default function FeaturedProject({ content }) {
               {description}
             </p>
           </div>
-          <div className={css.stackContainer}>
+          <div className={myCss.stackContainer}>
           </div>
           <div className={css.viewProject}>
             <Link href={url} aria-label={`View project ${project}`}>
@@ -51,7 +52,7 @@ export default function FeaturedProject({ content }) {
         </div>
       </div>
 
-      <div className={css.imageContainer}>
+      <div className={myCss.imageContainer}>
         {images.map(({ key, url, h, w }, index) => (
         <div key={`${index}-${key}`} style={{ width: '100%', height: 'auto' }}>
         <Image 
