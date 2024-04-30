@@ -28,13 +28,13 @@ export default function FeaturedProject({ content }) {
   return (
     <Section classProp={css.hasBg}>
     <section key={project} className={myCss.caseStudy}>
-      <div className={myCss.details}>
-        <div className={myCss.projectHeader}>
-          <div className={myCss.header}>
+      <div className={css.details}>
+        <div className={css.projectHeader}>
+          <div className={css.header}>
             <h3 className="highlight">{project}</h3>
-            <span className={myCss.privateOr}>{repo}</span>
+            <span className={css.privateOr}>{repo}</span>
           </div>
-          <div className={myCss.description}>
+          <div className={css.description}>
             <p>
               <strong>{descriptionTitle}</strong>
               <br />
@@ -42,7 +42,7 @@ export default function FeaturedProject({ content }) {
               {description}
             </p>
           </div>
-          <div className={myCss.stackContainer}>
+          <div className={css.stackContainer}>
           </div>
           <div className={css.viewProject}>
             <Link href={url} aria-label={`View project ${project}`}>
@@ -52,7 +52,7 @@ export default function FeaturedProject({ content }) {
         </div>
       </div>
 
-      <div className={myCss.imageContainer}>
+      <div className={css.imageContainer}>
         {images.map(({ key, url, h, w }, index) => (
         <div key={`${index}-${key}`} style={{ width: '100%', height: 'auto' }}>
         <Image 
