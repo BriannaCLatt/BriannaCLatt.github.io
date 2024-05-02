@@ -1,9 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import Icon from "../../utils/icon.util";
-import Section from "../../structure/section"
-import myCss from "../../../styles/sections/projects/casestudy.module.scss";
-import css from "../../../styles/sections/projects/featured.module.scss";
+import css from "../../../styles/sections/projects/casestudy.module.scss";
 import content from "../../../content/projects/featured.json";
 
 export default function FeaturedProject({ content }) {
@@ -26,8 +24,7 @@ export default function FeaturedProject({ content }) {
 
 
   return (
-    <Section classProp={css.hasBg}>
-    <section key={project} className={myCss.caseStudy}>
+    <section key={project} className={css.caseStudy}>
       <div className={css.details}>
         <div className={css.projectHeader}>
           <div className={css.header}>
@@ -67,6 +64,5 @@ export default function FeaturedProject({ content }) {
         ))}
       </div>
     </section>
-    </Section>
   );
 }
