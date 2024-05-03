@@ -121,7 +121,7 @@ export default function SuiteSpotPage() {
             <br />
             <div style={flexContainerStyle}>
               <div style={imageContainerStyle}>
-                <h3>Design Phase</h3>
+                <h3>Final Designs, User Testing, and Development Plans</h3>
                 <a
                   href="https://www.figma.com/proto/0Re8UoaQ2FkJxOzoKKgup0/Develop-Phase?page-id=0%3A1&type=design&node-id=454-47&viewport=28%2C430%2C0.11&t=E66Mw6xATjkovH0S-1&scaling=min-zoom&mode=design"
                   target="_blank"
@@ -135,10 +135,10 @@ export default function SuiteSpotPage() {
                 </a>
               </div>
               <div style={imageContainerStyle}>
-                <h3>Testing Phase - Pre-Development</h3>
+                <h3>Testing Plan</h3>
                 <a href="https://drive.google.com/file/d/17zNNnG1zUz1Rjs6Sp0rYCqv-Ov9AqxBd/view?usp=share_link">
                   <img
-                    src="/img/Design17.jpeg"
+                    src="/img/testingPlan.jpeg"
                     alt="Development and Redesign documentation for The Suite Spot"
                     style={imageStyle}
                   />
@@ -341,7 +341,6 @@ export default function SuiteSpotPage() {
               <br />
               <h3>Mobile</h3>
               <br />
-               {/* Add new photos and change link to development milestone */}
               <a
                 href="https://www.figma.com/proto/xBcWK5LhvhetgYrxEitJa4/Mobile-HiFi-Prototype?page-id=0%3A1&type=design&node-id=1-2&viewport=215%2C315%2C0.04&t=Q6ZCoICXgzRD0eL4-1&scaling=scale-down&starting-point-node-id=1%3A2&show-proto-sidebar=1&mode=design"
                 target="_blank"
@@ -384,25 +383,46 @@ export default function SuiteSpotPage() {
             <br />
             <br />
             <div style={flexContainerStyle}>
+              {/* Add new photos and change link to development milestone */}
               <div style={imageContainerStyle}>
-                <h3>Develop Phase</h3>
+                <h3>Front-end Development</h3>
                 <a
-                  href="https://www.figma.com/proto/0Re8UoaQ2FkJxOzoKKgup0/Develop-Phase?page-id=0%3A1&type=design&node-id=454-47&viewport=28%2C430%2C0.11&t=E66Mw6xATjkovH0S-1&scaling=min-zoom&mode=design"
+                  href="https://docs.google.com/document/d/1KN13MgtfyvB4xnOyz_9--qZDTUEToCFDc84YlwzK7_4/edit?usp=sharing"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   <img
-                    src="/img/Design17.jpeg"
+                    src="/img/Milestone5.jpeg"
                     alt="Development and Redesign documentation for The Suite Spot"
                     style={imageStyle}
                   />
                 </a>
               </div>
               <div style={imageContainerStyle}>
-                <h3>Testing Phase - Testing and Debugging</h3>
+                <h3>Back-end Development</h3>
+                <a href="https://docs.google.com/document/d/1EINkuwr771uosXcIgvsOX0db-Kf_sy3pn9yE0CPtaYE/edit?usp=sharing">
+                  <img
+                    src="/img/Milestone6.jpeg"
+                    alt="Development and Redesign documentation for The Suite Spot"
+                    style={imageStyle}
+                  />
+                </a>
+              </div>
+              <div style={imageContainerStyle}>
+                <h3>Testing and Debugging</h3>
                 <a href="https://docs.google.com/document/d/1rOaKwM7h7iPN1qCfTC4_OxQhsstsUsOkbNimOkce8kU/edit?usp=sharing">
                   <img
-                    src="/img/Design17.jpeg"
+                    src="/img/M7.jpeg"
+                    alt="Development and Redesign documentation for The Suite Spot"
+                    style={imageStyle}
+                  />
+                </a>
+              </div>
+              <div style={imageContainerStyle}>
+                <h3>Deployment</h3>
+                <a href="https://docs.google.com/document/d/1AqqWbsGufEOxow7jbg4v3L97S2FqWGg_wYAupW-BA5U/edit?usp=sharing">
+                  <img
+                    src="/img/Milestone8.jpeg"
                     alt="Development and Redesign documentation for The Suite Spot"
                     style={imageStyle}
                   />
