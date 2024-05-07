@@ -58,7 +58,7 @@ export default function SuiteSpotPage() {
           <div style={flexContainerStyle}>
           <img
                     src="/img/Group 1.png"
-                    alt="Design documentation for The Suite Spot"
+                    alt="Collage of The Suite Spot's booking, homepage, and shop"
                     style={imageStyled}
                   />
                   <a
@@ -139,7 +139,7 @@ export default function SuiteSpotPage() {
                 <a href="https://drive.google.com/file/d/17zNNnG1zUz1Rjs6Sp0rYCqv-Ov9AqxBd/view?usp=share_link">
                   <img
                     src="/img/testingPlan.jpeg"
-                    alt="Development and Redesign documentation for The Suite Spot"
+                    alt="Development plans and final design guide for The Suite Spot"
                     style={imageStyle}
                   />
                 </a>
@@ -393,7 +393,7 @@ export default function SuiteSpotPage() {
                 >
                   <img
                     src="/img/Milestone5.jpeg"
-                    alt="Development and Redesign documentation for The Suite Spot"
+                    alt="Front-end development documentation"
                     style={imageStyle}
                   />
                 </a>
@@ -403,7 +403,7 @@ export default function SuiteSpotPage() {
                 <a href="https://docs.google.com/document/d/1EINkuwr771uosXcIgvsOX0db-Kf_sy3pn9yE0CPtaYE/edit?usp=sharing">
                   <img
                     src="/img/Milestone6.jpeg"
-                    alt="Development and Redesign documentation for The Suite Spot"
+                    alt="Back-end development documentation"
                     style={imageStyle}
                   />
                 </a>
@@ -413,7 +413,7 @@ export default function SuiteSpotPage() {
                 <a href="https://docs.google.com/document/d/1rOaKwM7h7iPN1qCfTC4_OxQhsstsUsOkbNimOkce8kU/edit?usp=sharing">
                   <img
                     src="/img/M7.jpeg"
-                    alt="Development and Redesign documentation for The Suite Spot"
+                    alt="Testing and Debugging documentation"
                     style={imageStyle}
                   />
                 </a>
@@ -423,7 +423,7 @@ export default function SuiteSpotPage() {
                 <a href="https://docs.google.com/document/d/1AqqWbsGufEOxow7jbg4v3L97S2FqWGg_wYAupW-BA5U/edit?usp=sharing">
                   <img
                     src="/img/Milestone8.jpeg"
-                    alt="Development and Redesign documentation for The Suite Spot"
+                    alt="Deployment documentation"
                     style={imageStyle}
                   />
                 </a>
