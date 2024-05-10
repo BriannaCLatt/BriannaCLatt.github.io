@@ -139,48 +139,5 @@
       { "key": "reactnavigation", "name": "React Navigation", "type": "devicon" },
       { "key": "netlify", "name": "Netlify", "type": "devicon" }
     ]
-  },
-  {
-    "project": "Todo App",
-    "url": "https://todo-app-sonoft.netlify.app/",
-    "repo": "Github - Public",
-    "descriptionTitle": "From Concept to Implementation of a Productivity App",
-    "description": "This project highlights a functional of a todo app with login and registration features as well as robust form validation. Developed using React Native and Expo Go.",
-    "imageOptions": [{ "key": "size", "value": "large" }],
-    "images": [
-      {
-        "key": "portfolio",
-        "hover": "left",
-       "h": "540",
-        "w": "720",
-        "url": "/img/Todo.png"
-      }
-    ],
-    "stack": [
-      { "key": "react", "name": "React", "type": "devicon" },
-      { "key": "reactnavigation", "name": "React Navigation", "type": "devicon" },
-      { "key": "netlify", "name": "Netlify", "type": "devicon" }
-    ]
-  },
-  {
-    "project": "Menu",
-    "url": "https://briannaclatt.github.io/menu/",
-    "repo": "Github - Public",
-    "descriptionTitle": "An Online Restaurant Menu",
-    "description": "Built for Mobile Development. Displays an understanding of creating content with React and deploying to Github Pages.",
-    "imageOptions": [{ "key": "size", "value": "large" }],
-    "images": [
-      {
-        "key": "portfolio",
-        "hover": "left",
-        "h": "528",
-        "w": "736",
-        "url": "/img/Menu.png"
-      }
-    ],
-    "stack": [
-      { "key": "react", "name": "React", "type": "devicon" },
-      { "key": "github", "name": "Github", "type": "devicon" }
-    ]
   }
 ]
